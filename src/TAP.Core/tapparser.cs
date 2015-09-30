@@ -22,6 +22,7 @@ using System;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Linq;
+using TAP.Core;
 
 namespace Taps {
 

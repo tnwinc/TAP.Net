@@ -19,21 +19,15 @@
 // scripts; see the COPYING.EXCEPTION file for details.
 
 using System;
-using System.IO;
-using System.Text.RegularExpressions;
-using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Reflection;
-using System.Threading;
+using System.IO;
 using System.Linq;
-using System.Runtime.CompilerServices;
+using System.Reflection;
+using System.Text.RegularExpressions;
+using System.Threading;
+using Taps;
 
-[assembly: InternalsVisibleTo("taps")]
-[assembly: AssemblyTitle("tap.exe")]
-[assembly: AssemblyCopyright("Copyright © 2009 Frank van Dijk")]
-
-namespace Taps {
+namespace TAP.Core {
 
 
     public class TAPApp {

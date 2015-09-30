@@ -27,6 +27,7 @@ using System.Text.RegularExpressions;
 using System.CodeDom.Compiler;
 using Microsoft.CSharp;
 using System.Linq;
+using TAP.Core;
 
 namespace Taps {
 

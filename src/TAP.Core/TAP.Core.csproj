@@ -45,18 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="deepcmp.cs" />
     <Compile Include="gwalker.cs" />
-    <Compile Include="tap.cs" />
+    <Compile Include="Tap.cs" />
     <Compile Include="tapparser.cs" />
     <Compile Include="taprunner.cs" />
     <Compile Include="task.cs" />
     <Compile Include="taskmgr.cs" />
     <Compile Include="yamlwriter.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Tap.nuspec" />
   </ItemGroup>

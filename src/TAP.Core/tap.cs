@@ -19,18 +19,18 @@
 // scripts; see the COPYING.EXCEPTION file for details.
 
 using System;
-using System.IO;
-using System.Collections;
-using System.Collections.Specialized;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Text.RegularExpressions;
-using System.Reflection;
-using System.Threading;
+using System.Collections.Specialized;
 using System.Diagnostics;
+using System.Globalization;
+using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Text.RegularExpressions;
+using System.Threading;
+using Taps;
 
-namespace Taps {
+namespace TAP.Core {
 
     class CommentDictionaries {
         public OrderedDictionary Dic=new OrderedDictionary();
