@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{EA4713
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapParser", "tap\TapParser.csproj", "{3FC5430C-6F7B-4E3C-8623-397CEA26CFD9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F3414F6-B54A-4C66-9269-8E052C0AEFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAP.Core", "src\TAP.Core\TAP.Core.csproj", "{3FC5430C-6F7B-4E3C-8623-397CEA26CFD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FC5430C-6F7B-4E3C-8623-397CEA26CFD9} = {2F3414F6-B54A-4C66-9269-8E052C0AEFAF}
 	EndGlobalSection
 EndGlobal
