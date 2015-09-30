@@ -5,7 +5,7 @@
     <version>$version$</version>
     <title>Mandrill</title>
     <authors>$author$</authors>
-    <licenseUrl></licenseUrl>
+    <licenseUrl>https://github.com/tnwinc/TAP.Net/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/tnwinc/TAP.Net</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <owners>$author$</owners>
