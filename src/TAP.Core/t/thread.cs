@@ -22,7 +22,7 @@ using Taps;
 using System;
 using System.Threading;
 
-class ThreadTest: TAP, IDisposable {
+class ThreadTest: TAP.Core.TAP, IDisposable {
 
     static int Main() {
         Plan(4);

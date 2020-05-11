@@ -1,0 +1,11 @@
+version: 1.0.{build}
+
+image:
+  - Visual Studio 2019
+  - Ubuntu1804
+
+build_script: |
+  dotnet build --configuration Release
+  dotnet pack --configuration Release
+
+test_script: dotnet test --configuration Release --no-build

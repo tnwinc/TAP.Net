@@ -21,18 +21,16 @@
 
 // Looking for samples ? Don't look here. Look in samples.
 
-using Taps;
-
 using System;
-using System.Diagnostics;
-using System.IO;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
-using System.Globalization;
-using System.Linq;
+using TAP.Core;
 
-class TestTest: TAP  {
+class TestTest: TAP.Core.TAP  {
 
     static string OkExpected=@"1..6
 ok 1
@@ -1231,7 +1229,5 @@ not ok 3
                 throw;
             }
         };
-    }
-    
+    }    
 }
-

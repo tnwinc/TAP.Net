@@ -25,7 +25,7 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using System.Collections;
 
-class CmpWalkerTest: TAP {
+class CmpWalkerTest: TAP.Core.TAP {
 
     static int Main() {
         Plan(22);

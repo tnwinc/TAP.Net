@@ -23,7 +23,7 @@ using System;
 using System.Diagnostics;
 using System.Collections.Generic;
 
-class DeepCmpTest: TAP {
+class DeepCmpTest: TAP.Core.TAP {
 
     static int Main() {
         Plan(48);

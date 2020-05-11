@@ -24,7 +24,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Collections.Generic;
 
-class YAMLWalkerTest: TAP {
+class YAMLWalkerTest: TAP.Core.TAP {
     
     static int Main() {
         Plan(29);

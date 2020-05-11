@@ -23,7 +23,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-class DeepTest: TAP {
+class DeepTest: TAP.Core.TAP {
 
     static int Main() {
         Plan(1);
