@@ -21,7 +21,7 @@
 using Taps;
 using System;
 
-class AutorunTest: TAP, IDisposable {
+class AutorunTest: TAP.Core.TAP, IDisposable {
 
     static int Main() {
         Plan(5);

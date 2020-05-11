@@ -31,3 +31,4 @@ _ReSharper*/
 out/
 build/
 packages/
+.vs/

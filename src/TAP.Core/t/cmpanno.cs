@@ -18,14 +18,13 @@
 // of the GPL) regarding the use of this software in automated test
 // scripts; see the COPYING.EXCEPTION file for details.
 
-using Taps;
-using System;
-using System.IO;
-using System.Diagnostics;
-using System.Collections.Specialized;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.IO;
+using TAP.Core;
+using Taps;
 
-class CmpAnnoTest: TAP {
+class CmpAnnoTest: TAP.Core.TAP {
 
     static int Main() {
         Plan(11);

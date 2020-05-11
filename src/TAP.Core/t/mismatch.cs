@@ -18,13 +18,13 @@
 // of the GPL) regarding the use of this software in automated test
 // scripts; see the COPYING.EXCEPTION file for details.
 
-using Taps;
 using System;
 using System.IO;
-using System.Text.RegularExpressions;
 using System.Linq;
+using TAP.Core;
+using Taps;
 
-class MismatchTest: TAP {
+class MismatchTest: TAP.Core.TAP {
 
     static int Main() {
         Plan(4);
@@ -49,5 +49,4 @@ class MismatchTest: TAP {
         }
         return 0;
     }
-
 }

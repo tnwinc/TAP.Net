@@ -26,7 +26,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 
-class YAMLWriterTest: TAP {
+class YAMLWriterTest: TAP.Core.TAP {
 
     static int Main() {
         Plan(44);
